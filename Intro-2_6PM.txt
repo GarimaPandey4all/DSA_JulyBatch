@@ -1,0 +1,32 @@
+Data Structure:
+
+- It is a data organization
+- management
+- Storage
+- Format
+That enables efficient access and modification.
+
+1. Data - Array is a collection of similar types of values/data/elements.
+2. Relationships - Concept of ordering element in array e.g: Element Arrange in insertion order
+3. Operations - Traverse, Search , Sort etc.
+
+It is a way to organize information in such a way that ww can do useful things with it.
+-Storing and accessing a data in such a way, so it will ease of access (CRUD(Create Read Update Delete), Search, Sort).
+
+Algorithm:
+
+- Sequencial Steps to solving a Problem. 
+e.g: How to make a tea
+There would some steps involves.
+
+Measures of Performance:
+
+1. Time: How do you measure Algo time. Let's take an example:
+- If you want to compute the 
+  Amount of processing or number of operations code has to perform to Accomplish it's objective.
+
+2. Space or Extra Space:
+- This is both Memory needed by code to store information at runtimee, as well as disk space needed by code 
+for persistence/permanent storage.
+
+
