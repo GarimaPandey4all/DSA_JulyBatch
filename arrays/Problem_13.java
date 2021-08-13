@@ -1,5 +1,7 @@
 package com.brainmentors.dsa.arrays;
 
+import java.util.ArrayList;
+
 public class Problem_13 {
 	
 	public static void main(String[] args) {
@@ -27,6 +29,18 @@ public class Problem_13 {
 		int index[] = {0, 1, 2, 2, 1};
 		
 		//output[0, 4, 1, 3, 2]
+		
+		ArrayList<Integer> target = new ArrayList<>();
+		
+		if(arr.length == index.length)
+		{
+			for(int i = 0; i < arr.length; i++)
+			{
+				target.add(index[i], arr[i]);
+			}
+			
+			System.out.println(target);
+		}
 		
 	}
 
