@@ -1,0 +1,58 @@
+Recursion:
+
+- The process in which a function calls itself is called a recursion.
+- Recursion is a method where the solution of problem depends upon the solutions that are small 
+	instance of the same problem.
+
+Why we need recursion?
+
+- Any problem can be solved by a recursive method as well as by the iterative method.
+- But whenever we have a problem that is complex to do just by iterative / looping method.
+- Then we are going to divide the problem into a smaller instance of the same problem.
+- That means we solve it by the recursive method.
+
+What is call stack?
+
+- A call stack is a stack data structure that is used to trace the sequence of the function call.
+- When function called then it is get pushed inside the stack and when a function returns it popped 
+from the stack.
+
+
+Three concepts of recursion:
+
+1. Base Case / Stop Condition
+2. Small Problem
+3. Processing Logic
+
+
+Types of Recursion:
+
+1. Tail Recursion:
+
+- If a recursive function is calling itslef and that recursive call is the last statement in the function. 
+	After that call there is nothing. It is not performing anything.
+
+2. Head Recursion:
+
+- If a recursive function is calling itslef and that recursive call is the first statement in the function. 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
