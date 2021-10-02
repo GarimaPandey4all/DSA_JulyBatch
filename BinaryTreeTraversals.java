@@ -40,8 +40,8 @@ public class BinaryTreeTraversals {
 		}
 		
 		System.out.print(node.key+" ");
-		printInorder(node.left);
-		printInorder(node.right);
+		printPreorder(node.left);
+		printPreorder(node.right);
 	}
 	
 	void printPostorder(TreeNode node)
@@ -51,8 +51,8 @@ public class BinaryTreeTraversals {
 			return;
 		}
 		
-		printInorder(node.left);
-		printInorder(node.right);
+		printPostorder(node.left);
+		printPostorder(node.right);
 		System.out.print(node.key+" ");
 	}
 	
