@@ -1,0 +1,26 @@
+DP is entirely based on recursion.
+When we have overlapping subproblem in recursion tree, we need DP to solve it.
+example: Fibonacci Series
+
+1. Substructure Property
+fib(n-1) + fib(n-2);
+2. Overlapping Sub Problem
+
+1950 Bellman (Mathematician) invented DP.
+
+DP:
+1. Top - Down (Memoization)
+2. Bottom - Up (Tabulation)
+
+Bit Manipulation:
+
+1. X-OR
+
+a = 4 
+b = 5
+
+4: 0100
+5: 0101
+   0001 = 1 = a ^ b
+   0100 = 4 = a ^ b = 1 ^ 5
+   0101 = 5 = a ^ b = 1 ^ 4
